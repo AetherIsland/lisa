@@ -1,0 +1,29 @@
+{
+  "name": "@aetherisland/lisa",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "homepage": "https://github.com/AetherIsland/lisa",
+  "bugs": "https://github.com/AetherIsland/lisa/issues",
+  "repository": "github:AetherIsland/lisa",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "pkgroll"
+  },
+  "dependencies": {
+    "citty": "^0.1.6",
+    "consola": "^3.4.0",
+    "es-toolkit": "^1.32.0",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "pkgroll": "^2.8.2",
+    "tsx": "^4.19.2"
+  }
+}
