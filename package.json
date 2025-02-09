@@ -19,6 +19,7 @@
     "citty": "^0.1.6",
     "consola": "^3.4.0",
     "es-toolkit": "^1.32.0",
+    "js-xxhash": "^4.0.0",
     "simple-git": "^3.27.0"
   },
   "devDependencies": {

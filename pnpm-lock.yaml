@@ -17,6 +17,9 @@ importers:
       es-toolkit:
         specifier: ^1.32.0
         version: 1.32.0
+      js-xxhash:
+        specifier: ^4.0.0
+        version: 4.0.0
       simple-git:
         specifier: ^3.27.0
         version: 3.27.0
@@ -634,6 +637,10 @@ packages:
   is-reference@1.2.1:
     resolution: {integrity: sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==}
 
+  js-xxhash@4.0.0:
+    resolution: {integrity: sha512-3Q2eIqG6s1KEBBmkj9tGM9lef8LJbuRyTVBdI3GpTnrvtytunjLPO0wqABp5qhtMzfA32jYn1FlnIV7GH1RAHQ==}
+    engines: {node: '>=18.0.0'}
+
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
@@ -1155,6 +1162,8 @@ snapshots:
   is-reference@1.2.1:
     dependencies:
       '@types/estree': 1.0.6
+
+  js-xxhash@4.0.0: {}
 
   magic-string@0.30.17:
     dependencies:
