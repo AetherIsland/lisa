@@ -2,10 +2,8 @@
   "name": "@aetherisland/lisa",
   "type": "module",
   "version": "0.0.0",
-  "description": "",
   "license": "MIT",
   "homepage": "https://github.com/AetherIsland/lisa",
-  "bugs": "https://github.com/AetherIsland/lisa/issues",
   "repository": "github:AetherIsland/lisa",
   "files": [
     "dist",

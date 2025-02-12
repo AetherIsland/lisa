@@ -7,9 +7,9 @@ import { mainPipeline } from './main';
 
 const mainCmd = defineCommand({
     meta: {
-        // name: packageInfo.name,
+        name: 'lisa',
         version: packageInfo.version,
-        description: packageInfo.description
+        description: '生成图书馆馆藏'
     },
     args: {
         repo: {
