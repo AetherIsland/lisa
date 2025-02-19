@@ -38,7 +38,7 @@ async function lsHashFiles(git: SimpleGit, treeIsh: string) {
 async function writeJSON(filepath: string, value: any) {
     consola.debug('正在写入', filepath);
     try {
-        await fs.promises.writeFile(filepath, JSON.stringify(value));
+        await fs.promises.writeFile(filepath, JSON.stringify(value, null, 4));
     } catch (error) {
         consola.error('写入', filepath, '时发生错误');
         throw error;
