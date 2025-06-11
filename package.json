@@ -15,14 +15,14 @@
   },
   "dependencies": {
     "citty": "^0.1.6",
-    "consola": "^3.4.0",
-    "es-toolkit": "^1.32.0",
+    "consola": "^3.4.2",
+    "es-toolkit": "^1.39.3",
     "js-xxhash": "^4.0.0",
-    "simple-git": "^3.27.0"
+    "simple-git": "^3.28.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.4",
-    "pkgroll": "^2.10.0",
-    "tsx": "^4.19.3"
+    "@types/node": "^24.0.0",
+    "pkgroll": "^2.12.2",
+    "tsx": "^4.20.0"
   }
 }
