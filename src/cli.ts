@@ -2,8 +2,8 @@ import * as path from 'node:path';
 
 import { defineCommand, runMain } from 'citty';
 
-import * as packageInfo from '../package.json';
-import { mainPipeline } from './main';
+import * as packageInfo from '../package.json' with { type: 'json' };
+import { mainPipeline } from './main.ts';
 
 const mainCmd = defineCommand({
     meta: {

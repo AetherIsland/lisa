@@ -1,12 +1,25 @@
 {
   "compilerOptions": {
+    // Type Checking
+    "exactOptionalPropertyTypes": true,
     "strict": true,
+    // Modules
+    "allowImportingTsExtensions": true,
+    "module": "preserve",
+    "resolveJsonModule": true,
+    "rewriteRelativeImportExtensions": true,
+    "types": ["node"],
+    // Emit
+    "noEmit": true,
+    // Interop Constraints
+    "allowSyntheticDefaultImports": false,
+    "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
-    "lib": [],
-    "target": "ESNext"
-  },
-  "extends": "./tsconfig.tsx.json",
-  "include": [
-    "src/**/*"
-  ]
+    // Language and Environment
+    "lib": ["ESNext"],
+    "moduleDetection": "force",
+    "target": "esnext",
+    // Completeness
+    "skipLibCheck": true
+  }
 }
