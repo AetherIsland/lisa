@@ -10,9 +10,9 @@
     "noUnusedParameters": true,
     "strict": true,
     // Modules
-    "allowImportingTsExtensions": true,
     "module": "preserve",
     "resolveJsonModule": true,
+    "noUncheckedSideEffectImports": true,
     "rewriteRelativeImportExtensions": true,
     "types": ["node"],
     // Emit
@@ -23,6 +23,7 @@
     "verbatimModuleSyntax": true,
     // Language and Environment
     "lib": ["ESNext"],
+    "libReplacement": false,
     "moduleDetection": "force",
     "target": "esnext",
     // Completeness
