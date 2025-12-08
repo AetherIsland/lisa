@@ -9,7 +9,7 @@
     "dist",
     "README.md"
   ],
-  "bin": "dist/cli.js",
+  "bin": "dist/cli.mjs",
   "scripts": {
     "build": "tsdown src/cli.ts"
   },
