@@ -16,12 +16,12 @@
   "dependencies": {
     "citty": "^0.2.1",
     "consola": "^3.4.2",
-    "es-toolkit": "^1.44.0",
+    "es-toolkit": "^1.45.1",
     "js-xxhash": "^5.0.1",
-    "simple-git": "^3.31.1"
+    "simple-git": "^3.33.0"
   },
   "devDependencies": {
-    "@types/node": "^25.3.0",
-    "tsdown": "^0.20.3"
+    "@types/node": "^25.4.0",
+    "tsdown": "^0.21.1"
   }
 }
