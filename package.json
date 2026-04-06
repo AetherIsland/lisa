@@ -14,14 +14,14 @@
     "build": "tsdown src/cli.ts"
   },
   "dependencies": {
-    "citty": "^0.2.1",
+    "citty": "^0.2.2",
     "consola": "^3.4.2",
     "es-toolkit": "^1.45.1",
     "js-xxhash": "^5.0.1",
-    "simple-git": "^3.33.0"
+    "simple-git": "^3.35.1"
   },
   "devDependencies": {
-    "@types/node": "^25.4.0",
-    "tsdown": "^0.21.1"
+    "@types/node": "^25.5.2",
+    "tsdown": "^0.21.7"
   }
 }
